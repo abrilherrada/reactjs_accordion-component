@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(15deg, rgba(165,42,91,1) 30%, rgba(245,65,73,1) 100%);
+
+  }
+  
+  .container {
+    width: 70vw;
+  }
+
+  .title {
+    color: hsl(0, 0%, 95%);
+    font-size: 5rem;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 2rem;
+  }
